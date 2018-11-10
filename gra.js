@@ -275,3 +275,7 @@ function start()
     set_point();
     update();
 }
+function reload()
+{
+    window.location.reload(false);
+}
