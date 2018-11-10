@@ -57,20 +57,6 @@ function keypress(ev)
                 break;
         }
 }
-function snake_pass()
-{
-    for(var i=0;i<length;i++)
-        {
-            for(var j=i+1;j<length;j++)
-                {
-                        if((snake_array[i][0]==snake_array[j][0])&&(snake_array[i][1]==snake_array[j][1]))
-                        {
-                            return 1;
-                        }
-                }
-        }
-     return 0;
-}
 function set_point()
 {
     while(true)
