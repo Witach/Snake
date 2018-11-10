@@ -1,2 +1,2 @@
 # Snake
-Simple snake game.
+Simple snake game in JS.
